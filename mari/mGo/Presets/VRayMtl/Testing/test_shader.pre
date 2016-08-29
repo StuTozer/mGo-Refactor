@@ -1,0 +1,147 @@
+{
+    "attributes": {
+        "Anisotropy": [
+            0.0,
+            "float"
+        ],
+        "BRDF_Model": [
+            1,
+            "enum"
+        ],
+        "DiffuseAmount": [
+            1.0,
+            "float"
+        ],
+        "DiffuseColor": [
+            [
+                0.0,
+                0.617883563041687,
+                0.0
+            ],
+            "float3"
+        ],
+        "DiffuseRoughness": [
+            0.0,
+            "float"
+        ],
+        "Fog_Color": [
+            [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "float3"
+        ],
+        "Fog_bias": [
+            0.0,
+            "float"
+        ],
+        "Fog_multiplier": [
+            1.0,
+            "float"
+        ],
+        "Fresnel_On": [
+            true,
+            "bool"
+        ],
+        "Fresnel_useIOR": [
+            true,
+            "bool"
+        ],
+        "Fwd_back_coeff": [
+            1.0,
+            "float"
+        ],
+        "HighlightGlossiness": [
+            1.0,
+            "float"
+        ],
+        "IOR": [
+            1.600000023841858,
+            "float"
+        ],
+        "Lock_Highlight_Refle_gloss": [
+            true,
+            "bool"
+        ],
+        "Opacity_Map": [
+            [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "float3"
+        ],
+        "ReflectionAmount": [
+            1.0,
+            "float"
+        ],
+        "ReflectionColor": [
+            [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "float3"
+        ],
+        "ReflectionGlossiness": [
+            1.0,
+            "float"
+        ],
+        "Reflection_IOR": [
+            1.600000023841858,
+            "float"
+        ],
+        "RefractionAmount": [
+            1.0,
+            "float"
+        ],
+        "RefractionColor": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "float3"
+        ],
+        "RefractionGlossiness": [
+            1.0,
+            "float"
+        ],
+        "Rotation": [
+            0.0,
+            "float"
+        ],
+        "SSS_On": [
+            false,
+            "bool"
+        ],
+        "Scatt_coeff": [
+            0.0,
+            "float"
+        ],
+        "Self_Illumination": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "float3"
+        ],
+        "Translucency_Color": [
+            [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "float3"
+        ],
+        "ggxTailFalloff": [
+            2.0,
+            "float"
+        ]
+    },
+    "renderer": "vray",
+    "shader name": "test_shader",
+    "shader type": "VRayMtl"
+}

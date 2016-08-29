@@ -1,0 +1,24 @@
+mgo_app_ui.py 
+
+Application agnostic class providing a toolbar styled UI for sending data to Mari.
+
+
+
+mgo_convert.py
+
+Converts shader attribute names taken from shader in 3d app into format useable in Mari and vice versa  (only VRayMtl currently supported as example)
+
+
+mgo_maya.py
+
+All maya specific commands for dealing with importing/exporting/selecting data
+
+
+mgo_utils.py
+
+Bunch of functions which could ideally be shared between mGo in Mari and other potential 3d apps (for now it's included in maya scripts dir as well as mari/examples dir)
+
+
+
+
+
